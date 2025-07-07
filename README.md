@@ -45,7 +45,6 @@ Inside the MariaDB shell:
 CREATE DATABASE ecomdb;
 CREATE USER 'ecomuser'@'localhost' IDENTIFIED BY 'ecompassword';
 GRANT ALL PRIVILEGES ON *.* TO 'ecomuser'@'localhost';
-FLUSH PRIVILEGES;
 ```
 
 > 💡 For multi-node setups, use `'ecomuser'@'<web-server-ip>'` instead of `'localhost'`.
