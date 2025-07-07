@@ -1,8 +1,3 @@
-Absolutely! Here's your complete and professional `README.md` content, ready to copy and paste into your GitHub repo:
-
----
-
-````markdown
 # 📦 E-Commerce App Deployment on CentOS 7
 
 This project demonstrates the manual deployment of a PHP-based e-commerce application on a CentOS 7 Minimal server. It includes Apache, MariaDB, and PHP configuration — perfect for Linux system administration and cloud engineering practice.
@@ -17,7 +12,7 @@ Install and enable FirewallD:
 sudo yum install -y firewalld
 sudo systemctl start firewalld
 sudo systemctl enable firewalld
-````
+```
 
 ---
 
@@ -59,7 +54,7 @@ FLUSH PRIVILEGES;
 
 ## 🧾 Load Product Inventory
 
-Use the pre-written SQL script available in the `/assets` folder of this repository:
+Use the pre-written SQL script available in the `/assets` folder of this repository:  
 📄 [`assets/db-load-script.sql`](assets/db-load-script.sql)
 
 To load it into MariaDB:
@@ -106,7 +101,7 @@ sudo yum install -y git
 ### Clone the application code:
 
 ```bash
-sudo git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html/
+sudo git clone https://github.com/Sengary/ecommerce-deployment-manual /var/www/html/
 ```
 
 ### Create the `.env` file in the web root:
@@ -156,10 +151,3 @@ sudo setenforce 0
 ## ✅ Done!
 
 Your e-commerce app should now be live on your CentOS 7 machine. This setup reflects real-world Linux administration and service configuration best practices.
-
-```
-
----
-
-Let me know if you want to add badges, screenshots, or convert this into a cloud-deployable setup next!
-```
