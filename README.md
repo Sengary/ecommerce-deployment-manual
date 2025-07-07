@@ -100,7 +100,7 @@ sudo yum install -y git
 ### Clone the application code:
 
 ```bash
-sudo git clone https://github.com/Sengary/ecommerce-deployment-manual /var/www/html/
+sudo git clone https://github.com/mohab-abk/ecommerce-deployment-manual /var/www/html/
 ```
 
 ### Create the `.env` file in the web root:
